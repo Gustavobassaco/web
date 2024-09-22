@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu"  type="checkbox" aria-label="close-menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="close-menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1  onclick = "getElementById('close-menu').checked = false;"><a href="#home">logo</a></h1>
+            <nav>
+                <ul onclick = "getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#top3">top 3</a></li>
+                    <li><a href="#gallery">gallery</a></li>
+                    <li><a href="#work">work</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <section id="home" class="section main-bg">
+        <div class="main-content intro-content">
+            <div class="intro-text">
+                <h2>Titulo inicial do site</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis commodi aut exercitationem tempore
+                    aliquam
+                    harum quod ab voluptatum alias similique possimus quae cum temporibus, ex optio quam? Quaerat, iste
+                    fugit!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="um desenho de um homem css">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="section white-bg">
+        <div class="section2 main-content">
+            <h2>Top 3 Jobs</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consequatur, reprehenderit sint repellat
+                facilis quaerat, explicabo, quibusdam dicta rem cupiditate fugit illo culpa exercitationem incidunt
+                earum ratione dolorum natus deserunt.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi non fugiat temporibus adipisci expedita
+                neque. Porro deserunt saepe eligendi aliquam a, laborum ex accusantium molestiae autem nobis nisi
+                voluptate. Inventore?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium iste asperiores atque tempora,
+                adipisci veniam numquam temporibus quo facere nulla voluptatem Lorem ipsum dolor sit amet consectetur,
+                adipisicing elit. Eum molestiae pariatur distinctio eius, nobis expedita reiciendis, perspiciatis
+                consequatur magni reprehenderit, quibusdam nostrum unde illum in culpa qui sit totam magnam!</p>
+        </div>
+    </section>
+    <section id="top3" class="section main-bg">
+        <div class="container-top3 main-content">
+            <h2>Top 3 Jobs</h2>
+            <p>asjda aksjdakjsdhka akjsdbak</p>
+            <div class="grid-top3">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel architecto eius repellat quas nemo
+                        suscipit ea, voluptatibus mollitia tempore sapiente enim aperiam similique perspiciatis
+                        molestias
+                        iste itaque quisquam nostrum accusantium.</p>
+                </article>
+                <article>
+                    <h3>Second</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet nesciunt accusantium
+                        possimus dolore dolor tempore! Laboriosam magni nihil nisi dolores laborum, doloribus harum
+                        eaque!
+                        Esse quo eligendi labore minus?</p>
+                </article>
+                <article>
+                    <h3>Third</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias numquam aperiam dicta unde
+                        asperiores est temporibus, ad aliquam dolore, non accusamus aspernatur. Repellat magnam nobis
+                        mollitia autem delectus, iste eligendi?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="section white-bg">
+        <div class="main-content">
+            <div class="container-gallery">
+                <h3>Gallery</h3>
+                <p>
+                    Aqui um título sobre as imagens
+                </p>
+                <div class="grid-gallery">
+                    <div class="grid-img">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="">
+                    </div>
+                    <div class="grid-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFnCcp8ydVihHiLQxct4-mMRljgthylmDZ2g&s"
+                            alt="">
+                    </div>
+                    <div class="grid-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVc27NBI2CXz3BXoLUZBAOpXs3bROLhzA7Pg&s"
+                            alt="">
+                    </div>
+                    <div class="grid-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHd-Uu6gvFi1yd1Q_IYRi2x3Bt-J9q6KDrXg&s"
+                            alt="">
+                    </div>
+                    <div class="grid-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh_5bPmcPO-EE2S_PxzQGOaUtjUXualRAKKA&s"
+                            alt="">
+                    </div>
+                    <div class="grid-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-YMch-t5fRLBk8hA60-UIETHy4FusMGThog&s"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="qualquer" class="section main-bg">
+        <div class="container-top3 main-content">
+            <h2>Top 3 Jobs</h2>
+            <p>asjda aksjdakjsdhka akjsdbak</p>
+            <div class="grid-top3">
+                <article>
+                    <h3>First</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel architecto eius repellat quas nemo
+                        suscipit ea, voluptatibus mollitia tempore sapiente enim aperiam similique perspiciatis
+                        molestias
+                        iste itaque quisquam nostrum accusantium.</p>
+                </article>
+                <article>
+                    <h3>Second</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur eveniet nesciunt accusantium
+                        possimus dolore dolor tempore! Laboriosam magni nihil nisi dolores laborum, doloribus harum
+                        eaque!
+                        Esse quo eligendi labore minus?</p>
+                </article>
+                <article>
+                    <h3>Third</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias numquam aperiam dicta unde
+                        asperiores est temporibus, ad aliquam dolore, non accusamus aspernatur. Repellat magnam nobis
+                        mollitia autem delectus, iste eligendi?</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="work" class="section white-bg">
+        <div class="main-content container-top3">
+            <h2>Pricing</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, in cumque. Reprehenderit distinctio
+                laborum quasi autem exercitationem illo, explicabo quos repellat error. Deserunt magni necessitatibus
+                quisquam nemo dolores, non ut!</p>
+            <div class="container-table">
+                <table>
+                    <caption>Pricing table</caption>
+                    <thead>
+                        <th>Titulo 1</th>
+                        <th>Titulo 2</th>
+                        <th>Titulo 3</th>
+                        <th>Titulo 4</th>
+                        <th>Titulo 5</th>
+                        <th>Titulo 6</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Conteudo 1</td>
+                            <td>Conteudo 2</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 4</td>
+                            <td>Conteudo 5</td>
+                            <td>Conteudo 6</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 7</td>
+                            <td>Conteudo 8</td>
+                            <td>Conteudo 9</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                        <tr>
+                            <td>Conteudo 10</td>
+                            <td>Conteudo 11</td>
+                            <td>Conteudo 12</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                            <td>Conteudo 3</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Algo</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section main-bg">
+        <div class="main-content intro-content2">
+            <div class="intro-text2">
+                <h2>Titulo inicial do site</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis commodi aut exercitationem tempore
+                    aliquam
+                    harum quod ab voluptatum alias similique possimus quae cum temporibus, ex optio quam? Quaerat, iste
+                    fugit!
+                </p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript-not-optimized.svg" alt="um desenho de um homem css">
+            </div>
+            <div class="form">
+                <fieldset class="form-grid">
+                    <legend>Contact me</legend>
+                    <div class="form-group">
+                        <label for="first-name">Escreva seu nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="first-name">Escreva seu nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Escreva seu email</label>
+                        <input type="email" name="email" id="email" placeholder="email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Escreva sua Mensagem</label>
+                        <textarea name="message" id="message" placeholder="Sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Send message</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+    <footer class="footer white-bg">
+        <p>Gustavo Bassaco</p>
+    </footer>
+    <a class="back-to-top" href="#"></a>
+</body>
+
+</html>
